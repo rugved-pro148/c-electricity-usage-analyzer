@@ -1,0 +1,54 @@
+#include <stdio.h>
+int main() {
+    int a,b,c,d,e,f,g,h,i,j,sum,avg,highest,lowest;
+    printf("enter electricity consumption on day 1:");
+        scanf("%d",&a);
+   printf("enter electricity consumption on day 2:");
+        scanf("%d",&b);
+    printf("enter electricity consumption on day 3:");
+        scanf("%d",&c);
+    printf("enter electricity consumption on day 4:");
+        scanf("%d",&d);
+    printf("enter electricity consumption on day 5:");
+        scanf("%d",&e);
+    printf("enter electricity consumption on day 6:");
+        scanf("%d",&f);
+    printf("enter electricity consumption on day 7:");
+        scanf("%d",&g);
+    printf("enter electricity consumption on day 8:");
+        scanf("%d",&h);
+    printf("enter electricity consumption on day 9:");
+        scanf("%d",&i);
+    printf("enter electricity consumption on day 10:");
+        scanf("%d",&j);
+
+    printf("---------------------------------------------------");
+    sum=a+b+c+d+e+f+g+h+i+j;
+    printf("the total units consumed by user are:%d \n",sum);
+    avg=sum/10;
+    printf("the average daily consumption of user is:%dunits",avg);
+    printf("---------------------------------------------------");
+    highest=a;
+    if(b > highest) highest = b;
+    if(c > highest) highest = c;
+    if(d > highest) highest = d;
+    if(e > highest) highest = e;
+    if(f > highest) highest = f;
+    if(g > highest) highest = g;
+    if(h > highest) highest = h;
+    if(i > highest) highest = i;
+    if(j > highest) highest = j;
+    printf("the highest units is:%d\n",highest);
+    lowest=a;
+    if(b < lowest) lowest = b;
+    if(c < lowest) lowest = c;
+    if(d < lowest) lowest = d;
+    if(e < lowest) lowest = e;
+    if(f < lowest) lowest = f;
+    if(g < lowest) lowest = g;
+    if(h < lowest) lowest = h;
+    if(i < lowest) lowest = i;
+    if(j < lowest) lowest = j;
+printf("the lowest units are:%d\n",lowest);
+    return 0;
+}
