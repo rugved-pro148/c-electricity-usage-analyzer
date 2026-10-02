@@ -38,7 +38,7 @@ int main() {
     if(h > highest) highest = h;
     if(i > highest) highest = i;
     if(j > highest) highest = j;
-    printf("the highest units is:%d\n",highest);
+    printf("the highest units consumed by user are:%d\n",highest);
     lowest=a;
     if(b < lowest) lowest = b;
     if(c < lowest) lowest = c;
@@ -49,6 +49,6 @@ int main() {
     if(h < lowest) lowest = h;
     if(i < lowest) lowest = i;
     if(j < lowest) lowest = j;
-printf("the lowest units are:%d\n",lowest);
+printf("the lowest units consumed by user are:%d\n",lowest);
     return 0;
 }
